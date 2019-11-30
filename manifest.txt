@@ -1,0 +1,10 @@
+Nos, los integrantes de este grupo, nos comprometemos a no hinchar tanto los huevos.
+
+/*
+*insertar mas cosas al manifesto
+*/
+
+FIN
+
+SCRUM MASTER:  Damian Bouzo
+PRODUCT OWNER: Francisco Foukal
