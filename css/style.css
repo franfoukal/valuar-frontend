@@ -1,0 +1,11 @@
+body{
+    background-color: #212121;
+}
+
+.wrapper{
+    box-sizing: border-box;
+    margin: 20vh 0;
+}
+.violeta{
+    background-color: #aea4bf;
+}
