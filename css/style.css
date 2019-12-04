@@ -1,6 +1,7 @@
 body{
     background-color: #e3e4db;
 }
+
 .wrapper{
     box-sizing: border-box;
     margin: 20vh 0;
@@ -12,6 +13,7 @@ body{
 nav{
     position: fixed;
 }
+
 .responsive-img{
     border-radius: 5px;
 }
@@ -38,4 +40,39 @@ nav .brand-logo{
 .row-login{
     margin-bottom: 0;
     padding-bottom: 5%;
+}
+
+/* SMARTPHONES */
+@media only screen and (max-device-width:767px) {
+
+  .contactContainer{
+    font-size: 150%;
+    padding: 15% 0;
+  }
+
+}
+
+/* TABLETS */
+@media only screen and (min-device-width:768px) {
+
+  .contactContainer{
+    padding: 20% 0;
+  }
+
+}
+
+/* DESKTOPS */
+@media only screen and (min-device-width:1024px) {
+
+  .brand-logo{
+    margin-left: 2.5%;
+  }
+
+  .contactContainer{
+    padding: 4% 0;
+  }
+
+  .contactSideLogo{
+    width:100%;  
+  }
 }
