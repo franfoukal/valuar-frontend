@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+/* GLOBALES */
+.bg-noche{
+  background-color: #050517;
+}
+.bg-piel{
+  background-color: #F7D4BC;
+}
+.bg-verde{
+  background-color: #48A9A6;
+}
+.bg-crema{
+  background-color: #F7F4EA;
+}
+.bg-rojo{
+  background-color: #C1666B;
+}
+.bd-noche{
+  border-color: #050517;
+}
+.bd-piel{
+  border-color: #F7D4BC;
+}
+.bd-verde{
+  border-color: #48A9A6;
+}
+.bd-crema{
+  border-color: #F7F4EA;
+}
+.bd-rojo{
+  border-color: #C1666B;
+}
+.noche{
+  color: #050517;
+}
+.piel{
+  color: #F7D4BC;
+}
+.verde{
+  color: #48A9A6;
+}
+.crema{
+  color: #F7F4EA;
+}
+.rojo{
+  color: #C1666B;
+}
+.pos-a{
+  position: absolute;
+}
+.ct{
+  max-width: 964px;
+  margin: 0 auto;
+}
