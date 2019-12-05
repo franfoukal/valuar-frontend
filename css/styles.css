@@ -23,18 +23,28 @@
 }
 .bd-noche{
   border-color: #050517;
+  border-width: 1px;
+  border-style: solid;
 }
 .bd-piel{
   border-color: #F7D4BC;
+  border-width: 1px;
+  border-style: solid;
 }
 .bd-verde{
   border-color: #48A9A6;
+  border-width: 1px;
+  border-style: solid;
 }
 .bd-crema{
   border-color: #F7F4EA;
+  border-width: 1px;
+  border-style: solid;
 }
 .bd-rojo{
   border-color: #C1666B;
+  border-width: 1px;
+  border-style: solid;
 }
 .noche{
   color: #050517;

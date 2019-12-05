@@ -21,6 +21,29 @@ header{
   padding: .5rem;
   margin-left: auto;
 }
+.services{
+  text-align: center;
+}
+
+.svc-wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.service{
+  text-align: center;
+  padding: 2rem 2rem;
+  border-radius: 2%;
+
+}
+.service:hover{
+  background-color: rgba(72, 169, 166, 0.5);
+  color: white;
+}
+.service i{
+  font-size: 6rem;
+  padding-bottom: 1rem;
+}
 
 @media (min-width: 500px){
   .navbar-brand{
