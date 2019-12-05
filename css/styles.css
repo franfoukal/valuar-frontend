@@ -98,9 +98,6 @@
   }
 }
 @media (min-width: 1025px)  {
-  header{
-    height: 60vh;
-  }
   .navbar-brand{
     width: 15%;
   }
@@ -109,9 +106,6 @@
   }
 }
 @media (min-width: 1281px) {
-  header{
-    height: 75vh;
-  }
   .navbar-brand{
     width: 10%;
   }
