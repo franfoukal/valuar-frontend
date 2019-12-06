@@ -47,10 +47,11 @@
 .rojo{
   color: #C1666B;
 }
-.pos-a{
-  position: absolute;
+a{
+  text-decoration: none;
+  color: black;
 }
-.ct{
-  max-width: 964px;
-  margin: 0 auto;
+.container-fluid{
+  margin: 0;
+  padding: 0;
 }

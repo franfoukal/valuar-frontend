@@ -1,0 +1,12 @@
+.bloque{
+    height: 50vh;
+    border: solid red;
+}
+.bloque-azul{
+    border: solid blue;
+    height: 50vh;
+}
+
+.bloque-nav{
+    border: solid black;
+}
