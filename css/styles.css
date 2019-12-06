@@ -1,6 +1,10 @@
 *{
   box-sizing: border-box;
 }
+.container-fluid{
+  padding: 0;
+  margin:0;
+}
 /* GLOBALES */
 .bg-noche{
   background-color: #050517;
@@ -19,18 +23,28 @@
 }
 .bd-noche{
   border-color: #050517;
+  border-width: 1px;
+  border-style: solid;
 }
 .bd-piel{
   border-color: #F7D4BC;
+  border-width: 1px;
+  border-style: solid;
 }
 .bd-verde{
   border-color: #48A9A6;
+  border-width: 1px;
+  border-style: solid;
 }
 .bd-crema{
   border-color: #F7F4EA;
+  border-width: 1px;
+  border-style: solid;
 }
 .bd-rojo{
   border-color: #C1666B;
+  border-width: 1px;
+  border-style: solid;
 }
 .noche{
   color: #050517;
@@ -47,11 +61,55 @@
 .rojo{
   color: #C1666B;
 }
-a{
-  text-decoration: none;
-  color: black;
+.text-shadow{
+  text-shadow: 1px 2px 20px #050517;
 }
-.container-fluid{
-  margin: 0;
-  padding: 0;
+
+/* HEADER
+*
+* recomiendo dejar los breakpoints
+* solo para el header y crear nuevos
+* de ser necesario, para mantener bien global el estilo
+*
+*/
+.navbar-brand{
+  width: 40%;
+}
+.cart{
+  color: white;
+  font-size: 1rem;
+  padding: .5rem;
+  margin-left: auto;
+}
+
+@media (min-width: 500px){
+  .navbar-brand{
+    width: 30%;
+  }
+}
+
+@media (min-width: 768px)  {
+
+  .navbar-brand{
+    width: 15%;
+  }
+  .cart{
+    order: 3;
+  }
+}
+@media (min-width: 1025px)  {
+  .navbar-brand{
+    width: 15%;
+  }
+  .cart{
+    order: 3;
+  }
+}
+@media (min-width: 1281px) {
+  .navbar-brand{
+    width: 10%;
+  }
+  .cart{
+    order: 3;
+  }
 }
