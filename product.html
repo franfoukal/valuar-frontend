@@ -15,47 +15,88 @@
     <title>Product desc</title>
 </head>
 <body>
-    <div class="container-fluid bg-rojo">
-        <nav class="navbar navbar-expand-lg">
-            <a class='navbar-brand mx-auto' href="index.html"><img class='nav-logo' src="./assets/img/valuar-logo22.svg" alt=""></a>
-            <button class="navbar-toggler bloque-nav" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="basicExampleNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+    <div class="container-fluid bg-noche">
+        <!--Nav-->
+        <nav class="mb-1 navbar navbar-expand-md navbar-dark transparent home">
+        <a class="navbar-brand" href="#"><img class="logo img-responsive" src="assets/img/valuar-logo23.svg" alt=""></a>
+        <button type="button" class="btn bg-rojo cart">
+          <i class="fas fa-shopping-cart"></i>
+           <span class="badge badge-light">4</span>
+        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="#">
+                <i class="fas fa-cogs"></i> F.A.Q.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link waves-effect waves-light" href="#">
+                  <i class="fas fa-envelope"></i> Contacto
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-user"></i> Perfil </a>
+                  <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                    <a class="dropdown-item waves-effect waves-light" href="#">Log In</a>
+                    <a class="dropdown-item waves-effect waves-light" href="#">Mi cuenta</a>
+                    <a class="dropdown-item waves-effect waves-light" href="#">Log out</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!--Imagen de producto-->
+        <div class="bg-noche">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <img class='img-fluid' src="./assets/img/jewelry1.jpg" alt="">
+            </div>
+        <!--Descripcion de producto-->
+            <div class="col-sm-12 col-lg-6 mx-3">
+                <h3 class='item-title crema pt-2'>Joyería Pepito</h3>
+                <ol class="breadcrumb p-0">
+                    <li class="breadcrumb-item"><a class='crema' href="#">Joyas</a></li>
+                    <li class="breadcrumb-item active"><a class='crema' href="#">Colgantes</a></li>
+                </ol>
+                <p class='item-desc crema'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Asperiores similique nam quisquam laborum est repudiandae
+                    aliquid qui.
+                </p>
+        <!--Form para agregar al carrito-->
+                <form action="">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="custom-control custom-radio">
+                                    <input class='custom-control-input' type="radio" name="material" id="material-1"> 
+                                    <label class='custom-control-label crema' for="material-1"> Material 1</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input class='custom-control-input' type="radio" name="material" id="material-2">
+                                    <label class='custom-control-label crema' for="material-2">Material 2</label>
+                                </div>
+                            </div>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="row">
-            <div class="col-sm-12 col-lg-6">
-                <div class="bloque">
-                </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-4 d-flex ">
+                            <h3 class='amount piel my-auto mx-auto'>$ 1234</h3>
+                        </div>
+                        <div class="col-8">
+                            <button class='btn bg-verde float-left' type="submit">
+                                Agregar al carrito
+                            </button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12 col-lg-6">
-                <div class="bloque-azul"></div>
-            </div>
-        </div>
+    </div>
     </div>
     <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

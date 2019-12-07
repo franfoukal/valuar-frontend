@@ -1,12 +1,14 @@
-.bloque{
-    height: 50vh;
-    border: solid red;
-}
-.bloque-azul{
-    border: solid blue;
-    height: 50vh;
+
+.item-title{
+    font-weight: 400;
 }
 
 .bloque-nav{
     border: solid black;
+}
+.breadcrumb{
+    background: none;
+}
+a{
+    color: black;
 }
