@@ -2,13 +2,41 @@
 .item-title{
     font-weight: 400;
 }
-
-.bloque-nav{
-    border: solid black;
-}
 .breadcrumb{
     background: none;
 }
-a{
-    color: black;
+
+.cantidad{
+    background: none;
+    width: 50%;
+    border: none;
+}
+.bg-negro{
+    background-color: #212121;
+}
+.item-desc{
+    font-weight: 400;
+}
+footer .container{
+    max-width: 100%;
+}
+
+
+
+
+@media screen and (min-width: 1024px){
+    .product{
+        margin: auto 0;
+    }
+    .cantidad{
+        width: 30%;
+    }
+    footer{
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 412px){
+    footer{
+        display: none;
+    }
 }

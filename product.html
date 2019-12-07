@@ -14,17 +14,16 @@
 <link rel="stylesheet" href="product.css">
     <title>Product desc</title>
 </head>
-<body>
-    <div class="container-fluid bg-noche">
+<body class='bg-crema'>
         <!--Nav-->
-        <nav class="mb-1 navbar navbar-expand-md navbar-dark transparent home">
-        <a class="navbar-brand" href="#"><img class="logo img-responsive" src="assets/img/valuar-logo23.svg" alt=""></a>
+        <nav class="navbar navbar-expand-md navbar-dark bg-noche home">
+        <a class="navbar-brand" href="index.html"><img class="logo img-responsive" src="assets/img/valuar-logo23.svg" alt=""></a>
         <button type="button" class="btn bg-rojo cart">
           <i class="fas fa-shopping-cart"></i>
            <span class="badge badge-light">4</span>
         </button>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon noche"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
           <ul class="navbar-nav ml-auto">
@@ -48,21 +47,21 @@
                 </li>
               </ul>
             </div>
-          </nav>
+        </nav>
         <!--Imagen de producto-->
-        <div class="bg-noche">
-        <div class="row">
+        <div class="container">
+          <div class="row">
             <div class="col-sm-12 col-lg-6">
-                <img class='img-fluid' src="./assets/img/jewelry1.jpg" alt="">
+                <img class='product-img my-3 img-fluid rounded-lg' src="./assets/img/jewelry1.jpg" alt="">
             </div>
         <!--Descripcion de producto-->
-            <div class="col-sm-12 col-lg-6 mx-3">
-                <h3 class='item-title crema pt-2'>Joyería Pepito</h3>
-                <ol class="breadcrumb p-0">
-                    <li class="breadcrumb-item"><a class='crema' href="#">Joyas</a></li>
-                    <li class="breadcrumb-item active"><a class='crema' href="#">Colgantes</a></li>
+            <div class="col-12 col-lg-6 product noche">
+                <h3 class='item-title pt-2'>Colgantes 'Sauron'</h3>
+                <ol class="breadcrumb font-small p-0">
+                    <li class="breadcrumb-item"><a class='' href="#">Joyas</a></li>
+                    <li class="breadcrumb-item active"><a class='' href="#">Colgantes</a></li>
                 </ol>
-                <p class='item-desc crema'>
+                <p class='item-desc'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Asperiores similique nam quisquam laborum est repudiandae
                     aliquid qui.
@@ -70,33 +69,61 @@
         <!--Form para agregar al carrito-->
                 <form action="">
                     <div class="form-group">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="custom-control custom-radio">
-                                    <input class='custom-control-input' type="radio" name="material" id="material-1"> 
-                                    <label class='custom-control-label crema' for="material-1"> Material 1</label>
-                                </div>
-                                <div class="custom-control custom-radio">
-                                    <input class='custom-control-input' type="radio" name="material" id="material-2">
-                                    <label class='custom-control-label crema' for="material-2">Material 2</label>
-                                </div>
+                        <div class="form-row">
+                            <div class="col-6">
+                              <div class="my-1 def-number-input number-input pt-3 text-center">
+                                <i class="fas fa-angle-up waves-effect waves-light" onclick="mas()"></i>
+                                <input class=' cantidad disabled bd-crema text-center' min='1' value='1' type="number" name="cantidad" id="cantidad">
+                                <i class="fas fa-angle-down waves-effect waves-light" onclick="menos()"></i>
+                              </div>
+                            </div>
+                            <div class="col-6 d-flex">
+                              <h3 class='amount plain-text my-auto mx-auto'>$ <span id='precio'>1234</span></h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-4 d-flex ">
-                            <h3 class='amount piel my-auto mx-auto'>$ 1234</h3>
-                        </div>
-                        <div class="col-8">
-                            <button class='btn bg-verde float-left' type="submit">
+                      </div>
+                      <div class="form-group">
+                        <div class="form-row">
+                          <div class="col-12 text-center">
+                            <button class='btn bg-verde' type="submit">
                                 Agregar al carrito
                             </button>
+                          </div>
                         </div>
-                    </div>
+                      </div>  
                 </form>
             </div>
+          </div>
         </div>
-    </div>
+        <!--Footer-->
+        <footer class="page-footer font-small bg-crema">
+            <div class="container">
+              <div class="row">
+              <div class="col-md-12 py-1">
+                <div class="mb-5 flex-center">
+                  <a class="fb-ic">
+                    <i class="fab fa-facebook-f fa-lg noche mr-md-5 mr-3 fa-2x"> </i>
+                  </a>
+                  <a class="tw-ic">
+                    <i class="fab fa-twitter fa-lg noche mr-md-5 mr-3 fa-2x"> </i>
+                  </a>
+                  <a class="gplus-ic">
+                    <i class="fab fa-google-plus-g fa-lg noche mr-md-5 mr-3 fa-2x"> </i>
+                  </a>
+                  <a class="li-ic">
+                    <i class="fab fa-linkedin-in fa-lg noche mr-md-5 mr-3 fa-2x"> </i>
+                  </a>
+                  <a class="ins-ic">
+                    <i class="fab fa-instagram fa-lg noche mr-md-5 mr-3 fa-2x"> </i>
+                  </a>
+                  <a class="pin-ic">
+                    <i class="fab fa-pinterest fa-lg noche fa-2x"> </i>
+                  </a>
+                </div>
+              </div>
+              </div>
+          </div>
+      </footer>
     </div>
     <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -106,5 +133,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
+<script src="./assets/js/product.js"></script>
 </body>
 </html>
