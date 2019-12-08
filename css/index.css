@@ -80,12 +80,19 @@ header{
   padding: .8rem 1.2rem;
   opacity: 0.8;
 }
-.ctg-prompt .dark{
+.ctg-prompt.dark{
   color: white;
 }
-.ctg-prompt .light{
+.ctg-prompt.light{
   color: black;
 }
+.complement{
+  height: 50vh;
+}
+.main-footer{
+  height: 20vh;
+}
+
 
 /* MEDIA QUERYS */
 
