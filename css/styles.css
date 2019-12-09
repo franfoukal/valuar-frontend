@@ -64,7 +64,11 @@
 .text-shadow{
   text-shadow: 1px 2px 20px #050517;
 }
-
+.clearlist{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 /* HEADER
 *
 * recomiendo dejar los breakpoints
@@ -112,4 +116,27 @@
   .cart{
     order: 3;
   }
+}
+
+/* FOOTER */
+
+.main-footer {
+  display: flex;
+  align-items: center;
+  padding: 5rem 1rem;
+}
+.footer-item{
+  margin-bottom: 3rem;
+}
+.footer-title{
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1.5rem;
+}
+.footer-list li a{
+  color: white;
+}
+.copy{
+
 }
