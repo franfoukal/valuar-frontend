@@ -4,7 +4,6 @@ header{
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-  height: 100vh;
 }
 .navbar.home{
   box-shadow: none;
@@ -22,6 +21,15 @@ header{
   padding: .5rem;
   margin-left: auto;
 }
+.arrow{
+  font-size: 4rem;
+  display: block;
+  opacity: 0.5;
+  text-align: center;
+}
+
+/* SERVICES */
+
 .services{
   text-align: center;
 }
@@ -45,6 +53,46 @@ header{
   font-size: 6rem;
   padding-bottom: 1rem;
 }
+
+/* CATEGORIES */
+.categories .row{
+  display: flex;
+  justify-content: space-around;
+}
+.category{
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0.5rem 0rem;
+}
+.zoom:hover{
+  transform: scale(1.1);
+  transition: all 0.2s linear;
+}
+.ctg-prompt{
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: absolute;
+  display: block;
+  top: 70%;
+  padding: .8rem 1.2rem;
+  opacity: 0.8;
+}
+.ctg-prompt.dark{
+  color: white;
+}
+.ctg-prompt.light{
+  color: black;
+}
+.complement{
+  height: 50vh;
+}
+
+
+
+/* MEDIA QUERYS */
 
 @media (min-width: 500px){
   .navbar-brand{
