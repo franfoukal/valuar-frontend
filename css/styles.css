@@ -123,7 +123,7 @@
 .main-footer {
   display: flex;
   align-items: center;
-  padding: 5rem 1rem;
+  padding: 5rem 1rem .5rem 1rem;
 }
 .footer-item{
   margin-bottom: 3rem;
@@ -137,6 +137,10 @@
 .footer-list li a{
   color: white;
 }
+.footer-copy{
+  justify-content: center;
+}
 .copy{
-
+  color: white;
+  align-self: center;
 }
