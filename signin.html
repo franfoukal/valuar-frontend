@@ -14,7 +14,7 @@
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
 
   <link rel="stylesheet" href="css/styles.css">
-  <title>Log In | Valuar</title>
+  <title>Registrate | Valuar</title>
 </head>
 <body class="">
 
@@ -59,47 +59,68 @@
    <!-- CONTENT -->
    <div class="jumbotron bg-transparent" style="margin: 5vh 2.5vw">
       <div class="row">
-        <!-- Default form login -->
+        <!-- Sign Up form -->
           <form class="text-center border border-light p-5 mb-4 col-xl-6 offset-xl-3 col-lg-12 justify-content-center z-depth-1-half" action="#!">
 
-              <p class="h4 mb-4">Log In</p>
+              <p class="h4 mb-4">Registrate</p>
 
-              <!-- Email -->
-              <div class="md-form">
-                <input type="email" id="materialLoginFormEmail" class="form-control">
-                <label for="materialLoginFormEmail">E-mail</label>
-              </div>
+              <div class="form-row">
+               <div class="col">
+                   <!-- First name -->
+                   <div class="md-form">
+                       <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                       <label for="materialRegisterFormFirstName">Nombre</label>
+                   </div>
+               </div>
+               <div class="col">
+                   <!-- Last name -->
+                   <div class="md-form">
+                       <input type="email" id="materialRegisterFormLastName" class="form-control">
+                       <label for="materialRegisterFormLastName">Apellido</label>
+                   </div>
+               </div>
+           </div>
 
-              <!-- Password -->
-              <div class="md-form">
-                <input type="password" id="materialLoginFormPassword" class="form-control">
-                <label for="materialLoginFormPassword">Contraseña</label>
-              </div>
+           <!-- E-mail -->
+            <div class="md-form mt-0">
+                <input type="email" id="materialRegisterFormEmail" class="form-control">
+                <label for="materialRegisterFormEmail">E-mail</label>
+            </div>
 
-              <div class="d-flex justify-content-around">
-                  <div>
-                      <!-- Remember me -->
-                      <div class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                          <label class="custom-control-label" for="defaultLoginFormRemember">Mantenerme conectado</label>
-                      </div>
-                  </div>
-              </div>
+            <!-- Password -->
+            <div class="md-form">
+                <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
+                <label for="materialRegisterFormPassword">Contraseña</label>
 
-              <!-- Sign in button -->
-              <button class="btn bg-verde btn-block my-4 text-white" type="submit" style="width:80%;margin:auto">Enviar</button>
+            </div>
+            <div class="md-form">
+                <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
+                <label for="materialRegisterFormPassword">Confirmar contraseña</label>
+                <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                    Mínimo 8 caracteres y 1 número.
+                </small>
+            </div>
 
-              <p>
-                <!-- Forgot password -->
-                <a href="">¿Olvidaste tu contaseña?</a>
-              </p>
-              <!-- Register -->
-              <p>¿No sos miembro?
-                  <a href="signin.html">Registrate</a>
-              </p>
+            <!-- Phone number -->
+            <div class="md-form">
+                <input type="password" id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock">
+                <label for="materialRegisterFormPhone">Número de teléfono</label>
+                <small id="materialRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                    Opcional
+                </small>
+            </div>
 
+            <!-- Sign up button -->
+            <button class="btn bg-verde btn-block my-4 text-white" type="submit" style="width:80%;margin:auto">Registrate</button>
+
+            <!-- Terms of service -->
+            <p>
+              Al clickear
+                <em>Registrate</em> aceptas nuestros
+                <a href="" target="_blank">términos de servicio</a>
+            </p>
           </form>
-        <!-- Default form login -->
+        <!-- Sign Up form -->
       </div>
    </div>
 
