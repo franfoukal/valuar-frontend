@@ -32,7 +32,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" href="#">
+                    <a class="nav-link waves-effect waves-light" href="FAQ.html">
                         <i class="fas fa-cogs"></i> F.A.Q.
                     </a>
                 </li>
@@ -56,20 +56,22 @@
     </nav>
     <!--Main-->
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6 img-wrapper">
-                <!--Imagen de la izquierda-->
-                <div class="text-center d-flex justify-content-center">
-                    <img class='img-fluid img my-3 rounded-lg z-depth-1' src="./assets/img/ctg/aros.jpg" alt="">
-                    <div class="piel img-desc rounded-lg position-absolute text-left noche">
+        <!--Banner-->
+        <div class="row banner-row">
+            <div class="col-12 banner-col">
+                <div class="text-center rounded justify-content-center img-wrapper position-relative">
+                    <img class='img img-fluid my-3 rounded z-depth-1 ' src="./assets/img/ctg/collar1-banner.jpg" alt="">
+                    <div class="noche img-desc rounded-lg position-absolute text-left">
                         <h4 class='m-0'>Nueva</h4>
                         <h4 class='m-0'>Colección</h4>
                         <h4 class='m-0'>Verano</h4>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 my-auto">
-                <!--Menu de categorias-->
+        </div>
+        <!--Menu de categorias-->
+        <div class="row categorias-row">
+            <div class="col-12 my-auto">
                 <div class="bg-piel rounded mt-3">
                     <ul class='list-unstyled text-center'>
                         <li class='menu-li'>
@@ -104,107 +106,323 @@
                                 <div class="dropdown-divider"></div>
                             </div>
                         </li>
+                        
                     </ul>
                 </div>
-                <!--Lista de productos-->
-                <ul class='list-unstyled product-list'>
+            </div>
+        </div>
+        <!--Lista de productos & Menu Categorias-->
+        <div class="row main-row">
+            <!--Categorías de costado-->
+            <div class="col-lg-2 bg-piel rounded-lg categorias-side">
+                <ul class='list-unstyled my-2'>
                     <li>
-                        <div class="row">
-                            <div class="col-5 col-md-4">
-                                <div class="list-item my-3">
-                                    <a href="product.html">
-                                        <img class='list-img z-depth-1 rounded-lg' src="./assets/img/jewelry1.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-7 col-md-8">
-                                <div class="list-item text-left">
-                                    <a href="product.html">
-                                        <h4 class='my-3 noche'>
-                                            Colgantes 'Sauron'
-                                        </h4>
-                                    </a>
-                                    <h4 class='precio mt-5 mb-0'>
-                                        $ 1234
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
+                        <h5 class='mb-1 noche cat-title'>Categorías: </h5>
                     </li>
                     <li>
-                        <div class="row">
-                            <div class="col-5 col-md-4">
-                                <div class="list-item my-3">
-                                    <a href="product.html">
-                                        <img class='list-img z-depth-1 rounded-lg' src="./assets/img/jewelry1.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-7 col-md-8">
-                                <div class="list-item text-left">
-                                    <a href="product.html">
-                                        <h4 class='my-3 noche'>
-                                            Colgantes 'Sauron'
-                                        </h4>
-                                    </a>
-                                    <h4 class='precio mt-5 mb-0'>
-                                        $ 1234
-                                    </h4>   
-                                </div>
-                            </div>
-                        </div>
+                        <a class='noche' href="#">
+                            Alhajas
+                        </a>
                     </li>
                     <li>
-                        <div class="row">
-                            <div class="col-5 col-md-4">
-                                <div class="list-item my-3">
-                                    <a href="product.html">
-                                        <img class='list-img z-depth-1 rounded-lg' src="./assets/img/jewelry1.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-7 col-md-8">
-                                <div class="list-item text-left">
-                                    <a href="product.html">
-                                        <h4 class='my-3 noche'>
-                                            Colgantes 'Sauron'
-                                        </h4>
-                                    </a>
-                                    <h4 class='precio mt-5 mb-0'>
-                                        $ 1234
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
+                        <a class='noche' href="#">
+                            Colgantes
+                        </a>
+                    </li>
+                    <li>
+                        <a class='noche' href="">
+                            Anillos
+                        </a>
+                    </li>
+                    <li>
+                        <a class='noche' href="">
+                            Pulseras
+                        </a>
+                    </li>
+                    <li>
+                        <div class="divisor my-1"></div>
+                    </li>
+                    <li>
+                        <h5 class='my-1 cat-title noche'>
+                            Ordenar por:
+                        </h5>
+                    </li>
+                    <li>
+                        <a class='noche' href="#">A - Z</a>
+                    </li>
+                    <li>
+                        <a class='noche' href="#">Mayor Precio</a>
+                    </li>
+                    <li>
+                        <a class='noche' href="#">Menor Precio</a>
+                    </li>
+                    <li>
+                        <div class="divisor my-1"></div>
+                    </li>
+                    <li>
+                        <h5 class='my-1 cat-title noche'>
+                            Filtrar por:
+                        </h5>
+                    </li>
+                    <li>
+                        <h6 class='noche'>Material: </h6>
+                    </li>
+                    <li>
+                        <a class='noche' href="">Oro</a>
+                    </li>
+                    <li>
+                        <a class='noche' href="">Plata</a>
                     </li>
                 </ul>
-                <!--Paginación de abajo-->
-                <nav class='' aria-label="Page navigation">
-                    <ul class="justify-content-center pagination pg-blue pagination-lg">
-                        <li class='page-item'>
-                            <a class='page-link'href="">
-                                <i class="fas fa-angle-left"></i>
-                            </a>
-                        </li>
-                        <li class="page-item disabled">
-                            <a class="page-link" tabindex="-1">1</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link">2</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link">3</a>
-                        </li>
-                        <li class='page-item'>
-                            <a class='page-link' href="">
-                                <i class="fas fa-angle-right"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>            
-        </div>
-    </div>
+            </div>
+            <!--Lista de productos-->
+            <div class="col-12 col-lg-10">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="product-wrapper">
+                            <div class="row">
+                                <div class="col-5 col-md-12">
+                                    <div class="list-item text-center mb-3">
+                                        <a href="product.html">
+                                            <img class='list-img z-depth-1 rounded-lg' src="./assets/img/products/prod-3.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-12">
+                                    <div class="list-item text-left">
+                                        <a href="product.html">
+                                            <h4 class='mb-3 noche'>
+                                                Anillo 'Sauron'
+                                            </h4>
+                                        </a>
+                                        <h4 class='precio my-4 mb-0'>
+                                            $ 1234
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-piel w-100'>Agregar al carrito</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-verde w-100'>Comprar ahora</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="product-wrapper">
+                            <div class="row">
+                                <div class="col-5 col-md-12">
+                                    <div class="list-item text-center mb-3">
+                                        <a href="product.html">
+                                            <img class='list-img z-depth-1 rounded-lg' src="./assets/img/products/prod-2.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-12">
+                                    <div class="list-item text-left">
+                                        <a href="product.html">
+                                            <h4 class='mb-3 noche'>
+                                                Anillo 'Legrand'
+                                            </h4>
+                                        </a>
+                                        <h4 class='precio my-4 mb-0'>
+                                            $ 1234
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-piel w-100'>Agregar al carrito</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-verde w-100'>Comprar ahora</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="product-wrapper">
+                            <div class="row">
+                                <div class="col-5 col-md-12">
+                                    <div class="list-item text-center mb-3">
+                                        <a href="product.html">
+                                            <img class='list-img z-depth-1 rounded-lg' src="./assets/img/products/prod-1.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-12">
+                                    <div class="list-item text-left">
+                                        <a href="product.html">
+                                            <h4 class='mb-3 noche'>
+                                                Anillo 'Infinito'
+                                            </h4>
+                                        </a>
+                                        <h4 class='precio my-4 mb-0'>
+                                            $ 1234
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-piel w-100'>Agregar al carrito</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-verde w-100'>Comprar ahora</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="product-wrapper">
+                            <div class="row">
+                                <div class="col-5 col-md-12">
+                                    <div class="list-item text-center mb-3">
+                                        <a href="product.html">
+                                            <img class='list-img z-depth-1 rounded-lg' src="./assets/img/products/prod-4.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-12">
+                                    <div class="list-item text-left">
+                                        <a href="product.html">
+                                            <h4 class='mb-3 noche'>
+                                                Anillo 'Raleway'
+                                            </h4>
+                                        </a>
+                                        <h4 class='precio my-4 mb-0'>
+                                            $ 1234
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-piel w-100'>Agregar al carrito</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-verde w-100'>Comprar ahora</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="product-wrapper">
+                            <div class="row">
+                                <div class="col-5 col-md-12">
+                                    <div class="list-item text-center mb-3">
+                                        <a href="product.html">
+                                            <img class='list-img z-depth-1 rounded-lg' src="./assets/img/products/prod-3.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-12">
+                                    <div class="list-item text-left">
+                                        <a href="product.html">
+                                            <h4 class='mb-3 noche'>
+                                                Anillo 'Sauron'
+                                            </h4>
+                                        </a>
+                                        <h4 class='precio my-4 mb-0'>
+                                            $ 1234
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-piel w-100'>Agregar al carrito</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-verde w-100'>Comprar ahora</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="product-wrapper">
+                            <div class="row">
+                                <div class="col-5 col-md-12">
+                                    <div class="list-item text-center mb-3">
+                                        <a href="product.html">
+                                            <img class='list-img z-depth-1 rounded-lg' src="./assets/img/products/prod-3.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-12">
+                                    <div class="list-item text-left">
+                                        <a href="product.html">
+                                            <h4 class='mb-3 noche'>
+                                                Anillo 'Sauron'
+                                            </h4>
+                                        </a>
+                                        <h4 class='precio my-4 mb-0'>
+                                            $ 1234
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-piel w-100'>Agregar al carrito</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-verde w-100'>Comprar ahora</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="product-wrapper">
+                            <div class="row">
+                                <div class="col-5 col-md-12">
+                                    <div class="list-item text-center mb-3">
+                                        <a href="product.html">
+                                            <img class='list-img z-depth-1 rounded-lg' src="./assets/img/products/prod-3.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-7 col-md-12">
+                                    <div class="list-item text-left">
+                                        <a href="product.html">
+                                            <h4 class='mb-3 noche'>
+                                                Anillo 'Sauron'
+                                            </h4>
+                                        </a>
+                                        <h4 class='precio my-4 mb-0'>
+                                            $ 1234
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-piel w-100'>Agregar al carrito</button>
+                                </div>
+                                <div class="col-12">
+                                    <button class='btn bg-verde w-100'>Comprar ahora</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>  
+        <!--Paginación de abajo-->
+        <nav class='' aria-label="Page navigation">
+            <ul class="justify-content-center pagination pg-blue pagination-lg">
+                <li class='page-item'>
+                    <a class='page-link'href="">
+                        <i class="fas fa-angle-left"></i>
+                    </a>
+                </li>
+                <li class="page-item disabled">
+                    <a class="page-link" tabindex="-1">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link">3</a>
+                </li>
+                <li class='page-item'>
+                    <a class='page-link' href="">
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>            
     <!--Footer-->
     <footer class="main-footer bg-noche">
         <section class="container">
