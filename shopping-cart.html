@@ -132,8 +132,38 @@
           </ul>
         </section>
 
-        <aside class="buying-options z-depth-1-half bg-verde col-12 col-md-4">
-          <h2>Envios</h2>
+        <aside class="buying-options z-depth-1-half bg-crema col-12 col-md-4">
+
+          <form class="col-9 card cart-form" action="index.html" method="post">
+            <h5 class="text-center my-4">DATOS DE COMPRA</h5>
+            <div class="credit-card verde">
+              <i class="fab fa-cc-visa"></i>
+              <i class="fab fa-cc-mastercard"></i>
+              <i class="fab fa-cc-amex"></i>
+            </div>
+
+            <div class="md-form">
+              <input type="number" id="cardform1" class="form-control">
+              <label for="cardform1" class="">Nº Tarjeta</label>
+            </div>
+            <div class="md-form">
+              <input type="number" pattern="^\d{1,3}$" id="cardform2" class="form-control">
+              <label for="cardform2" class="">CVV</label>
+            </div>
+
+            <div class="md-form">
+              <input type="text" id="cardform3" class="form-control">
+              <label for="cardform3" class="">Dirección envío</label>
+            </div>
+
+              <div class="md-form">
+                <input type="text" id="cardform4" class="form-control">
+                <label for="cardform4" class="">Ciudad</label>
+              </div>
+
+            <button type="button" name="button" class="btn right bg-verde">Siguiente</button>
+
+          </form>
 
         </aside>
       </div>
