@@ -1,6 +1,6 @@
 
 .item-title{
-    font-weight: 400;
+    font-weight: 500;
 }
 .breadcrumb{
     background: none;
@@ -8,35 +8,45 @@
 
 .cantidad{
     background: none;
-    width: 50%;
+    display: block;
     border: none;
+    width: 100%;
 }
 .bg-negro{
     background-color: #212121;
 }
-.item-desc{
-    font-weight: 400;
-}
+
 footer .container{
     max-width: 100%;
 }
 
-
-
-
+.product-img{
+    max-width: 100%;
+}
+.talle-select{
+    text-align: center;
+}
+.product{
+    margin-bottom: 1rem;
+}
 @media screen and (min-width: 1024px){
-    .product{
-        margin: auto 0;
+    .talle-select{
+        width: 70%;
     }
-    .cantidad{
-        width: 30%;
-    }
-    footer{
-        margin-top: 1rem;
+}
+@media screen and (max-width: 768px){
+    .talle-select{
+        width: 75%;
     }
 }
 @media screen and (max-width: 412px){
     footer{
         display: none;
+    }
+    .talle-select{
+        width: 80%;  
+    }
+    .card-img{
+        width: 90%;
     }
 }
