@@ -16,9 +16,6 @@
     background-color: #212121;
 }
 
-footer .container{
-    max-width: 100%;
-}
 
 .product-img{
     max-width: 100%;
@@ -29,7 +26,17 @@ footer .container{
 .product{
     margin-bottom: 1rem;
 }
-@media screen and (min-width: 1024px){
+.carousel-indicators li{
+    background-color: rgba(5, 5, 23, 0.8);
+}
+.carrusel-icon{
+    border-radius: 50%;
+    background-color: rgba(5, 5, 23, 0.8);
+    border: none;
+}
+
+
+@media screen and (min-width: 992px){
     .talle-select{
         width: 70%;
     }
@@ -39,7 +46,7 @@ footer .container{
         width: 75%;
     }
 }
-@media screen and (max-width: 412px){
+@media screen and (max-width: 576px){
     footer{
         display: none;
     }
